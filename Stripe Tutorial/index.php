@@ -41,7 +41,7 @@
 <div class="row row-centered">
   <div class="col-md-4 col-md-offset-4">
   <div class="page-header">
-    <h2 class="gdfg">Stripe Payment Form</h2>
+    <h2>Stripe Payment Form</h2>
   </div>
 
 <forrm action="" method="POST" class="form-horizontal">
