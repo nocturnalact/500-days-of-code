@@ -1,3 +1,32 @@
+<?php 
+// Implement Stripe
+
+ 
+require 'lib/Stripe.php';
+ 
+if ($_POST) {
+
+  // Set your secret key
+Stripe::setApiKey("sk_test_here");
+
+// Get the credit card details submitted by the form
+$token = $_POST['stripeToken'];
+
+// Create the charge on Stripe's servers - this will charge the user's card
+try {
+$charge = Stripe_Charge::create(array(
+  "amount" => 1000, // amount in pennies
+  "currency" => "gbp",
+  "source" => $token,
+  "description" => "Example charge")
+);
+} catch(\Stripe\Error\Card $e) {
+  // The card has been declined
+}
+
+ }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
