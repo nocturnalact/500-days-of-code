@@ -73,7 +73,7 @@ $charge = Stripe_Charge::create(array(
     <h2>Stripe Payment Form</h2>
   </div>
 
-<forrm action="" method="POST" class="form-horizontal">
+<form action="" method="POST" class="form-horizontal">
    <!-- Name -->
   <div class="form-group">
     <label class="col-sm-4 control-label" for="textinput">Full Name</label>
