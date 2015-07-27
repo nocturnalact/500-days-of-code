@@ -68,7 +68,24 @@ header.carousel .fill {
 }
 
 /* Added styles */
-.button,.button-solid,.button-inverse,a.button-white,.button-white,.button-grey{display:inline-block;padding:0 0.9em;border-radius:5px;border:solid 2px #b109aa;font-family:"Quicksand",Helvetica,Arial,sans-serif;font-size:1.25em;font-weight:bold;line-height:1.65em;height:1.9em;text-transform:uppercase;cursor:pointer}.button{background:#b109aa;color:#fff}
+.button,.button-solid,.button-inverse,a.button-white,.button-white,.button-grey {
+    display:inline-block;
+    padding:0 0.9em;
+    border-radius:5px;
+    border:solid 2px #b109aa;
+    font-family:"Quicksand",Helvetica,Arial,sans-serif;
+    font-size:1.25em;
+    font-weight:bold;
+    line-height:1.65em;
+    height:1.9em;
+    text-transform:uppercase;
+    cursor:pointer
+}
+
+.button {
+    background:#b109aa;
+    color:#fff
+}
 
 .button_container {
 
@@ -80,9 +97,17 @@ header.carousel .fill {
 
 .calc btn {
     display:inline-block;
-    padding:0 0.9em;border-radius:5px;border:solid 2px #b109aa;font-family:"Quicksand",Helvetica,Arial,sans-serif;font-size:1.25em;font-weight:bold;line-height:1.65em;height:1.9em;text-transform:uppercase;cursor:pointer;
+    padding:0 0.9em;
+    border-radius:5px;
+    border:solid 2px #b109aa;
+    font-family:"Quicksand",Helvetica,Arial,sans-serif;
+    font-size:1.25em;
+    font-weight:bold;
+    line-height:1.65em;
+    height:1.9em;
+    text-transform:uppercase;
+    cursor:pointer;
     background:#b109aa;
-  
     color:#fff;    
 }
 
@@ -116,6 +141,19 @@ html {
     
     background: #9dd2ea;
     background: linear-gradient(#9dd2ea, #8bceec);
+    border-radius: 3px;
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#board {
+    width: 270px;
+    height: auto;
+    
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+    
+    background: #fcfcfc;
+    background: linear-gradient(#fcfcfc, #717a33);
     border-radius: 3px;
     box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
