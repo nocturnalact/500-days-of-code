@@ -158,6 +158,18 @@ html {
     box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
+#model {
+    width: 180px;
+    height: 200px;
+
+    margin-left: 10px;
+    margin-right: 5px;
+
+    background: #FFF0F5;
+
+    text-align: center;
+
+}
 /* Top portion */
 .top span.clear {
     float: left;
